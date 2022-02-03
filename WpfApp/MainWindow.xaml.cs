@@ -40,7 +40,7 @@ namespace WpfApp
         {
             if (txtValor1.Text == "" || txtValor2.Text == "")
             {
-                MessageBox.Show("Você não pode calcular valores vazios", "ATENÇÃO", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Você não deve calcular valores vazios", "ATENÇÃO", MessageBoxButton.OK, MessageBoxImage.Warning);
 
             }
             else
@@ -61,7 +61,7 @@ namespace WpfApp
         {
             if (txtValor1.Text == "" || txtValor2.Text == "")
             {
-                MessageBox.Show("Você não pode calcular valores vazios");
+                MessageBox.Show("Você não deve calcular valores vazios");
 
             }
             else
